@@ -226,7 +226,7 @@
             .footer-link {
                 margin-left: 20px;
                 max-width: 945px;
-                margin-left: auto;
+                margin-left: 13%;
                 margin-right: auto;
             }
             
@@ -237,7 +237,7 @@
             
             .footer-link ul li {
                 display: inline-block;
-                margin: 10px 24px 10px 24px;
+                margin: 10px 16px 10px 16px;
             }
             
             .footer-link ul li a {
