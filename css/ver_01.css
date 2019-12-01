@@ -4,6 +4,7 @@
     max-width: 1140px;
     margin-left: 140px;
     margin-right: 140px;
+    min-width: 400px;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
 #section-1 {
     background-color: #87509c;
     min-height: 595px;
+    background-attachment: fixed;
 }
 
 header {
@@ -78,3 +80,74 @@ nav ul li a {
 
 
 /* Page 02 */
+
+#section-2 {
+    background-color: #17c2a4;
+    min-height: 745px;
+    color: white;
+}
+
+#title-box {
+    max-width: 609px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+
+#title-box h2 {
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#title-box .short-line {
+    width: 87px;
+    height: 2px;
+    background-color: rgba( 0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+}
+
+#title-box p {
+    font-size: 18px;
+}
+
+.blurb-row {
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+.blurb {
+    display: inline-table;
+    width: 23.33%;
+    margin-right: 0.5%;
+    min-width: 120px;
+    text-align: center;
+}
+
+.blurb img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blurb h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.blurb p {
+    font-size: 16px;
+    /* margin-right: 0.5%; */
+    font-weight: 500;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
