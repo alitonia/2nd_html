@@ -1,14 +1,28 @@
             /* Page 01 */
             
+/*             @media screen and (min-width:1141px) {
+                .container {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+            @media screen and(max-width:1140px) {
+                .container {
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+            } */
+            
             html {
                 margin-bottom: 0;
             }
             
             .container {
-                max-width: 1140px;
-                margin-left: 140px;
-                margin-right: 140px;
+                max-width: 80%px;
                 min-width: 400px;
+                margin-left: auto;
+                   margin-right: auto;
             }
             
             body {
@@ -20,16 +34,18 @@
             #section-1 {
                 background-color: #87509c;
                 min-height: 595px;
-                background-attachment: fixed;
             }
             
             header {
-                padding-top: 55px;
+                padding-top: 4%;
+                max-width: 750px;
+                margin-left: auto;
+                margin-right: auto;
             }
             
             nav {
                 float: right;
-                padding: 0px 10px;
+                margin: 0 5%;
                 clear: right;
             }
             
@@ -58,9 +74,9 @@
             .main-heading {
                 margin-top: 145px;
                 text-align: center;
-                max-width: 800px;
-                padding-left: 9%;
-                padding-right: auto;
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
             }
             
             .main-heading h1 {
@@ -68,6 +84,8 @@
                 color: white;
                 font-weight: bold;
                 margin-bottom: 60px;
+                margin-left:auto;
+                margin-right:auto;
             }
             
             .big-button {
@@ -80,6 +98,7 @@
                 font-size: 120%;
                 font-weight: 400;
                 text-transform: capitalize;
+                margin-bottom:10%;
             }
             /* Page 02 */
             
@@ -120,8 +139,9 @@
             
             .blurb-row {
                 margin-top: 100px;
-                margin-left: 3%;
-                margin-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                max-width:900px;
             }
             
             .blurb {
@@ -129,6 +149,7 @@
                 width: 23.33%;
                 margin-right: 0.5%;
                 min-width: 120px;
+                max-width:500px;
                 text-align: center;
             }
             
@@ -224,20 +245,23 @@
             }
             
             .footer-link {
-                margin-left: 20px;
-                max-width: 945px;
-                margin-left: 13%;
-                margin-right: auto;
+                max-width:800px;
+                margin-left: auto;
+                margin-right:auto;
             }
             
             .footer-link ul {
                 margin: 0;
-                padding: 50px auto 0 40px;
+                margin-left:auto;
+                margin-right:auto;
             }
             
             .footer-link ul li {
-                display: inline-block;
-                margin: 10px 16px 10px 16px;
+                text-align:left;
+                display: inline-flex;
+                margin: 1% 2% 1% 2%;
+                min-width: 9%;
+                max-width:30%
             }
             
             .footer-link ul li a {
