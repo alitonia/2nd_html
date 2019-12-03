@@ -74,6 +74,11 @@
                                     margin-left:13% !important;
                         }
             }
+            @media screen and (max-width:486px){
+                        header ul{
+                       max-width:210px !important;
+                        }
+            }
             html {
                 margin-bottom: 0;
             }
