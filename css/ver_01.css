@@ -1,13 +1,85 @@
             /* Page 01 */
             
+            @media screen and (min-width:804px) {
+                .container {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+            @media screen and (max-width:803px) {
+                .container {
+                    margin-left: 20px !important;
+                    margin-right: 20px !important;
+                }
+                .main-heading h1 {
+                    font-size: 27px !important;
+                }
+                #title-box h2 {
+                    font-size: 24px !important;
+                }
+                .blurb h3 {
+                    font-size: 22px !important;
+                }
+                #title-box p {
+                    font-size: 18px !important;
+                }
+            }
+            
+            @media screen and (max-width:735px) {
+                footer ul {
+                    max-width: 400px !important;
+                    text-align: center !important;
+                }
+            }
+            @media screen and (max-width:704px){
+                        .main-heading h1{
+                                    max-width: 500px !important;
+                        }
+            }
+            @media screen and (max-width:673px){
+               
+                        .blurb{
+                                    padding-right:30px !important;
+                                    padding-left:90px !important;
+                                    padding-bottom: 10px !important;
+                                
+                        }
+                        .blurb h3{
+                                    font-size:20px !important;
+                        }
+            }
+
+            @media screen and (max-width:601px){
+                        .main-heading h1{
+                                    max-width:230px !important;
+                        }
+                        #section-2 #title-box p{
+                                    max-width:270px !important;
+                                    margin-right:auto !important;
+                                    margin-left: auto !important;
+                        }
+                         #section-3 #title-box p{
+                                    max-width:300px !important;
+                                    margin-right:auto !important;
+                                    margin-left: auto !important;
+                        }
+                        footer ul{
+                                    padding-left:0 !important;
+                        }
+            }
+
+            @media screen and (max-width:588px){
+                        .blurb{
+                                    margin-left:13% !important;
+                        }
+            }
             html {
                 margin-bottom: 0;
             }
             
             .container {
-                max-width: 1140px;
-                margin-left: 140px;
-                margin-right: 140px;
+                max-width: 80%px;
                 min-width: 400px;
             }
             
@@ -20,16 +92,18 @@
             #section-1 {
                 background-color: #87509c;
                 min-height: 595px;
-                background-attachment: fixed;
             }
             
             header {
-                padding-top: 55px;
+                padding-top: 4%;
+                max-width: 750px;
+                margin-left: auto;
+                margin-right: auto;
             }
             
             nav {
                 float: right;
-                padding: 0px 10px;
+                margin: 0 5%;
                 clear: right;
             }
             
@@ -58,16 +132,18 @@
             .main-heading {
                 margin-top: 145px;
                 text-align: center;
-                max-width: 800px;
-                padding-left: 9%;
-                padding-right: auto;
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
             }
             
             .main-heading h1 {
-                font-size: 210%;
+                font-size: 33px;
                 color: white;
                 font-weight: bold;
                 margin-bottom: 60px;
+                margin-left: auto;
+                margin-right: auto;
             }
             
             .big-button {
@@ -80,6 +156,7 @@
                 font-size: 120%;
                 font-weight: 400;
                 text-transform: capitalize;
+                margin-bottom: 10%;
             }
             /* Page 02 */
             
@@ -120,8 +197,9 @@
             
             .blurb-row {
                 margin-top: 100px;
-                margin-left: 3%;
-                margin-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 900px;
             }
             
             .blurb {
@@ -129,6 +207,7 @@
                 width: 23.33%;
                 margin-right: 0.5%;
                 min-width: 120px;
+                max-width: 500px;
                 text-align: center;
             }
             
@@ -224,20 +303,27 @@
             }
             
             .footer-link {
-               
-                max-width: 1245px;
+
+                max-width: 810px;
+
                 margin-left: auto;
                 margin-right: auto;
             }
             
             .footer-link ul {
                 margin: 0;
-                padding: 10px auto auto 10px;
+
+                margin-left: auto;
+                margin-right: auto;
+
             }
             
             .footer-link ul li {
-                display: inline-block;
-                margin: 10px 16px 10px 16px;
+                text-align: left;
+                display: inline-flex;
+                margin: 1% 2% 1% 2%;
+                min-width: 9%;
+                max-width: 30%
             }
             
             .footer-link ul li a {
