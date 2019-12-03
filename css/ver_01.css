@@ -32,53 +32,55 @@
                     text-align: center !important;
                 }
             }
-            @media screen and (max-width:704px){
-                        .main-heading h1{
-                                    max-width: 500px !important;
-                        }
+            
+            @media screen and (max-width:704px) {
+                .main-heading h1 {
+                    max-width: 500px !important;
+                }
             }
-            @media screen and (max-width:743px){
-               
-                        .blurb{
-                                    padding-right:30px !important;
-                                    padding-left:90px !important;
-                                    padding-bottom: 10px !important;
-                                
-                        }
-                        .blurb h3{
-                                    font-size:20px !important;
-                        }
+            
+            @media screen and (max-width:743px) {
+                .blurb {
+                    padding-right: 30px !important;
+                    padding-left: 90px !important;
+                    padding-bottom: 10px !important;
+                }
+                .blurb h3 {
+                    font-size: 20px !important;
+                }
             }
-
-            @media screen and (max-width:601px){
-                        .main-heading h1{
-                                    max-width:230px !important;
-                        }
-                        #section-2 #title-box p{
-                                    max-width:270px !important;
-                                    margin-right:auto !important;
-                                    margin-left: auto !important;
-                        }
-                         #section-3 #title-box p{
-                                    max-width:300px !important;
-                                    margin-right:auto !important;
-                                    margin-left: auto !important;
-                        }
-                        footer ul{
-                                    padding-left:0 !important;
-                        }
+            
+            @media screen and (max-width:601px) {
+                .main-heading h1 {
+                    max-width: 230px !important;
+                }
+                #section-2 #title-box p {
+                    max-width: 270px !important;
+                    margin-right: auto !important;
+                    margin-left: auto !important;
+                }
+                #section-3 #title-box p {
+                    max-width: 300px !important;
+                    margin-right: auto !important;
+                    margin-left: auto !important;
+                }
+                footer ul {
+                    padding-left: 0 !important;
+                }
             }
-
-            @media screen and (max-width:588px){
-                        .blurb{
-                                    margin-left:13% !important;
-                        }
+            
+            @media screen and (max-width:588px) {
+                .blurb {
+                    margin-left: 13% !important;
+                }
             }
-            @media screen and (max-width:486px){
-                        header ul{
-                       max-width:210px !important;
-                        }
+            
+            @media screen and (max-width:486px) {
+                header ul {
+                    max-width: 210px !important;
+                }
             }
+            
             html {
                 margin-bottom: 0;
             }
@@ -246,6 +248,10 @@
                 color: white;
             }
             
+            .no-break {
+                white-space: nowrap;
+            }
+            
             #contact-form {
                 max-width: 870px;
                 margin-left: auto;
@@ -308,19 +314,15 @@
             }
             
             .footer-link {
-
                 max-width: 810px;
-
                 margin-left: auto;
                 margin-right: auto;
             }
             
             .footer-link ul {
                 margin: 0;
-
                 margin-left: auto;
                 margin-right: auto;
-
             }
             
             .footer-link ul li {
