@@ -303,15 +303,19 @@
             }
             
             .footer-link {
+
                 max-width: 810px;
+
                 margin-left: auto;
                 margin-right: auto;
             }
             
             .footer-link ul {
                 margin: 0;
+
                 margin-left: auto;
                 margin-right: auto;
+
             }
             
             .footer-link ul li {
